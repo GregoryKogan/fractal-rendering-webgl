@@ -25,10 +25,7 @@ const animation_speed = 0.00001;
 let animation_progress = 0.0;
 
 function preload() {
-  juliaShader = loadShader(
-    "/fractal-rendering-webgl/src/shader.vert",
-    "/fractal-rendering-webgl/src/shader.frag"
-  );
+  juliaShader = loadShader("src/shader.vert", "src/shader.frag");
 }
 
 function setup() {
